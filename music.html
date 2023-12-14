@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>播放音乐功能</title>
+    </head>
+    <body>
+
+    <audio src="music\background.mp3" autoplay loop></audio>
+    <button onclick="document.getElementsByTagName('audio')[0].play()">播放</button>
+    <button onclick="document.getElementsByTagName('audio')[0].pause()">暂停</button>
+    <p>其中，getElementsByTagName('audio')[0]表示获取第一个audio元素，play()方法表示播放音乐，pause()方法表示暂停音乐。</p>
+        
+    </body>
+</html>
